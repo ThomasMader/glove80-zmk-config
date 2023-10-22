@@ -1,1 +1,2886 @@
-{"keyboard":"glove80","keymap":"default","layout":"LAYOUT","layer_names":["base","fn"],"layers":[[{"value":"&kp","params":[{"value":"F1","params":[]}]},{"value":"&kp","params":[{"value":"F2","params":[]}]},{"value":"&kp","params":[{"value":"F3","params":[]}]},{"value":"&kp","params":[{"value":"F4","params":[]}]},{"value":"&kp","params":[{"value":"F5","params":[]}]},{"value":"&kp","params":[{"value":"F6","params":[]}]},{"value":"&kp","params":[{"value":"F7","params":[]}]},{"value":"&kp","params":[{"value":"F8","params":[]}]},{"value":"&kp","params":[{"value":"F9","params":[]}]},{"value":"&kp","params":[{"value":"F10","params":[]}]},{"value":"&kp","params":[{"value":"EQUAL","params":[]}]},{"value":"&kp","params":[{"value":"N1","params":[]}]},{"value":"&kp","params":[{"value":"N2","params":[]}]},{"value":"&kp","params":[{"value":"N3","params":[]}]},{"value":"&kp","params":[{"value":"N4","params":[]}]},{"value":"&kp","params":[{"value":"N5","params":[]}]},{"value":"&kp","params":[{"value":"N6","params":[]}]},{"value":"&kp","params":[{"value":"N7","params":[]}]},{"value":"&kp","params":[{"value":"N8","params":[]}]},{"value":"&kp","params":[{"value":"N9","params":[]}]},{"value":"&kp","params":[{"value":"N0","params":[]}]},{"value":"&kp","params":[{"value":"MINUS","params":[]}]},{"value":"&kp","params":[{"value":"TAB","params":[]}]},{"value":"&kp","params":[{"value":"Q","params":[]}]},{"value":"&kp","params":[{"value":"W","params":[]}]},{"value":"&kp","params":[{"value":"E","params":[]}]},{"value":"&kp","params":[{"value":"R","params":[]}]},{"value":"&kp","params":[{"value":"T","params":[]}]},{"value":"&kp","params":[{"value":"Y","params":[]}]},{"value":"&kp","params":[{"value":"U","params":[]}]},{"value":"&kp","params":[{"value":"I","params":[]}]},{"value":"&kp","params":[{"value":"O","params":[]}]},{"value":"&kp","params":[{"value":"P","params":[]}]},{"value":"&kp","params":[{"value":"BSLH","params":[]}]},{"value":"&kp","params":[{"value":"ESC","params":[]}]},{"value":"&kp","params":[{"value":"A","params":[]}]},{"value":"&kp","params":[{"value":"S","params":[]}]},{"value":"&kp","params":[{"value":"D","params":[]}]},{"value":"&kp","params":[{"value":"F","params":[]}]},{"value":"&kp","params":[{"value":"G","params":[]}]},{"value":"&kp","params":[{"value":"H","params":[]}]},{"value":"&kp","params":[{"value":"J","params":[]}]},{"value":"&kp","params":[{"value":"K","params":[]}]},{"value":"&kp","params":[{"value":"L","params":[]}]},{"value":"&kp","params":[{"value":"SEMI","params":[]}]},{"value":"&kp","params":[{"value":"SQT","params":[]}]},{"value":"&kp","params":[{"value":"GRAVE","params":[]}]},{"value":"&kp","params":[{"value":"Z","params":[]}]},{"value":"&kp","params":[{"value":"X","params":[]}]},{"value":"&kp","params":[{"value":"C","params":[]}]},{"value":"&kp","params":[{"value":"V","params":[]}]},{"value":"&kp","params":[{"value":"B","params":[]}]},{"value":"&kp","params":[{"value":"LSHFT","params":[]}]},{"value":"&kp","params":[{"value":"LCTRL","params":[]}]},{"value":"&mo","params":[{"value":"1","params":[]}]},{"value":"&kp","params":[{"value":"LGUI","params":[]}]},{"value":"&kp","params":[{"value":"RCTRL","params":[]}]},{"value":"&kp","params":[{"value":"RSHFT","params":[]}]},{"value":"&kp","params":[{"value":"N","params":[]}]},{"value":"&kp","params":[{"value":"M","params":[]}]},{"value":"&kp","params":[{"value":"COMMA","params":[]}]},{"value":"&kp","params":[{"value":"DOT","params":[]}]},{"value":"&kp","params":[{"value":"FSLH","params":[]}]},{"value":"&kp","params":[{"value":"PG_UP","params":[]}]},{"value":"&mo","params":[{"value":"1","params":[]}]},{"value":"&kp","params":[{"value":"HOME","params":[]}]},{"value":"&kp","params":[{"value":"END","params":[]}]},{"value":"&kp","params":[{"value":"LEFT","params":[]}]},{"value":"&kp","params":[{"value":"RIGHT","params":[]}]},{"value":"&kp","params":[{"value":"BSPC","params":[]}]},{"value":"&kp","params":[{"value":"DEL","params":[]}]},{"value":"&kp","params":[{"value":"LALT","params":[]}]},{"value":"&kp","params":[{"value":"RALT","params":[]}]},{"value":"&kp","params":[{"value":"RET","params":[]}]},{"value":"&kp","params":[{"value":"SPACE","params":[]}]},{"value":"&kp","params":[{"value":"UP","params":[]}]},{"value":"&kp","params":[{"value":"DOWN","params":[]}]},{"value":"&kp","params":[{"value":"LBKT","params":[]}]},{"value":"&kp","params":[{"value":"RBKT","params":[]}]},{"value":"&kp","params":[{"value":"PG_DN","params":[]}]}],[{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"0","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"1","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"2","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"3","params":[]}]},{"value":"&bt","params":[{"value":"BT_SEL","params":[]},{"value":"4","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"F11","params":[]}]},{"value":"&kp","params":[{"value":"F12","params":[]}]},{"value":"&bt","params":[{"value":"BT_CLR","params":[]}]},{"value":"&none","params":[]},{"value":"&out","params":[{"value":"OUT_USB","params":[]}]},{"value":"&out","params":[{"value":"OUT_BLE","params":[]}]},{"value":"&out","params":[{"value":"OUT_TOG","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&bootloader","params":[]},{"value":"&rgb_ug","params":[{"value":"RGB_TOG","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_EFF","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_BRI","params":[]}]},{"value":"&rgb_ug","params":[{"value":"RGB_BRD","params":[]}]},{"value":"&kp","params":[{"value":"K_VOL_UP","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&reset","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"K_VOL_DN","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&ext_power","params":[{"value":"EP_ON","params":[]}]},{"value":"&ext_power","params":[{"value":"EP_OFF","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"K_MUTE","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&kp","params":[{"value":"CAPS","params":[]}]},{"value":"&kp","params":[{"value":"INS","params":[]}]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]},{"value":"&none","params":[]}]]}
+{
+  "keyboard": "glove80",
+  "uuid": "",
+  "date": 1697977377,
+  "creator": "",
+  "parent_uuid": "d099c650-fc66-4904-8bc3-d49cb692cd84",
+  "firmware_api_version": "1",
+  "locale": "de-DE",
+  "title": "glove80",
+  "notes": "german keyboard layout special characters:\n^ -> &kp GRAVE\n° -> &kp LS(GRAVE)\n| -> &kp RA(NUBS)\n\\ -> &kp RA(MINUS)\n? -> &kp LS(MINUS)\n' -> &kp LS(NON_US_HASH)\n´ -> &kp EQUAL\n` -> &kp LS(EQUAL)\n# -> &kp NON_US_HASH\n+ -> &kp RBKT\n* -> &kp LS(RBKT)\n~ -> &kp RA(RBKT)\n< -> &kp NUBS\n> -> &kp LS(NUBS)\n",
+  "tags": [
+    "german"
+  ],
+  "unlisted": false,
+  "layer_names": [
+    "Base",
+    "Lower",
+    "Magic",
+    "Symbol",
+    "Game"
+  ],
+  "layers": [
+    [
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "EQUAL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&tog",
+        "params": [
+          {
+            "value": 4,
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&tab_or_cappy",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Q",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "W",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "E",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "R",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "T",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Y",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "U",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "I",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "O",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "P",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LBKT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&esc_or_f4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "A",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "S",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "D",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "G",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "H",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "J",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "L",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SEMI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SQT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Z",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "X",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "V",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "B",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LCTRL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LALT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RGUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RALT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RCTRL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "M",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "COMMA",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "FSLH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RSHFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&magic",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "HOME",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "END",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_layer 3 DELETE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_layer 1 F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_layer 1 F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_layer 3 ENTER",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "BSPC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "MINUS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_BRI_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_BRI_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_PREV",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_NEXT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_PP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_MUTE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_VOL_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C_VOL_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PAUSE_BREAK",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "HOME",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LEFT_PARENTHESIS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_NUM",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_EQUAL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_SLASH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_MULTIPLY",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PRINTSCREEN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "UP_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "END",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RIGHT_PARENTHESIS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_MINUS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SCROLLLOCK",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LCTRL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LEFT_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOWN_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RIGHT_ARROW",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PERCENT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_PLUS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K_APP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_DN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&to",
+        "params": [
+          {
+            "value": 0,
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "COMMA",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_ENTER",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&magic",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "CAPS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "INS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_DOT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "KP_ENTER",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&bt",
+        "params": [
+          {
+            "value": "BT_CLR",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt",
+        "params": [
+          {
+            "value": "BT_CLR_ALL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SPI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SAI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_HUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_BRI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_TOG",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bootloader",
+        "params": []
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SPD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_SAD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_HUD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_BRD",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&rgb_ug",
+        "params": [
+          {
+            "value": "RGB_EFF",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bootloader",
+        "params": []
+      },
+      {
+        "value": "&reset",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt_2",
+        "params": []
+      },
+      {
+        "value": "&bt_3",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&reset",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&bt_0",
+        "params": []
+      },
+      {
+        "value": "&bt_1",
+        "params": []
+      },
+      {
+        "value": "&out",
+        "params": [
+          {
+            "value": "OUT_USB",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "GRAVE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N4)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(N7)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(N0)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(E)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N3)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N6)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(NON_US_HASH)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "NON_US_HASH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(GRAVE)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "NON_US_BSLH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(NUBS)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N8)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N9)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N7)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(RBKT)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N1)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N2)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(RBKT)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N0)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(NUBS)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(N5)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(N8)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(N9)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(MINUS)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "EQUAL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(MINUS)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp LS(EQUAL)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RBKT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&kp RA(Q)",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      }
+    ],
+    [
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "ESC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "EQUAL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N1",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N2",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N3",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N4",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N5",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N9",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N0",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&to",
+        "params": [
+          {
+            "value": 0,
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "P",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Q",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "W",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "E",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "R",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "T",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Y",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "U",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "I",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "O",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "P",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LBKT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "L",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "A",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "S",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "D",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "G",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "H",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "J",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "K",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "L",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SEMI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SQT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "NON_US_BSLH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "Z",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "X",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "C",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "V",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "B",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N7",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N8",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LALT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RGUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RALT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RCTRL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "M",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "COMMA",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "FSLH",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "H",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "HOME",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "END",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LEFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RIGHT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DEL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "N6",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RET",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "BSPC",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOWN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "MINUS",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_DN",
+            "params": []
+          }
+        ]
+      }
+    ]
+  ],
+  "custom_defined_behaviors": "behaviors {\n  //\n  // Miryoku home row mods and thumb layer keys\n  // https://sunaku.github.io/home-row-mods.html\n  // https://github.com/urob/zmk-config#timeless-homerow-mods\n  //\n  // TYPING_STREAK_TERM defines how long you need to wait (milliseconds)\n  // after typing before you can use home row mods again.  It prevents\n  // unintended activation of home row mods when you're actively typing.\n  //\n  #define TYPING_STREAK_TERM 200 // global-quick-tap-ms\n  //\n  // KEY_REPEATING_TERM defines how much time you have left (milliseconds)\n  // after tapping a key to hold it again in order to make it auto-repeat.\n  //\n  #define KEY_REPEATING_TERM 300 // \"tap then hold\" for key auto-repeat\n  //\n  // HOMEY_TAPPING_TERM defines how long you need to hold (milliseconds)\n  // home row mod keys in order to send their modifiers to the computer\n  // (i.e. \"register\" them) for mod-click mouse usage (e.g. Ctrl-Click).\n  //\n  // NOTE: the \"balanced\" flavor of ZMK hold-tap for home row mods already\n  // provides instant modifier activation for keyboard-only usage, so this\n  // setting is meant for combined keyboard/mouse usage such as mod-clicks.\n  //\n  #define HOMEY_TAPPING_TERM 280 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER\n\n  //\n  // THUMB_TAPPING_TERM defines how long you need to hold (milliseconds)\n  // a thumb key to activate a layer.  Shorter holds are treated as taps.\n  //\n  #define THUMB_TAPPING_TERM 240\n  //\n  // Glove80 key positions index for positional hold-tap\n  // https://discord.com/channels/877392805654306816/937645688244826154/1066713913351221248\n  // https://media.discordapp.net/attachments/937645688244826154/1066713913133121556/image.png\n  //\n  // |------------------------|------------------------|\n  // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n  // |                        |                        |\n  // |  0  1  2  3  4         |          5  6  7  8  9 |\n  // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n  // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n  // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n  // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n  // | 64 65 66 67 68         |         75 76 77 78 79 |\n  // |                69 52   |   57 74                |\n  // |                 70 53  |  56 73                 |\n  // |                  71 54 | 55 72                  |\n  // |------------------------|------------------------|\n  //\n  //\n  #define LEFT_HAND_KEYS      \\\n        0  1  2  3  4         \\\n       10 11 12 13 14 15      \\\n       22 23 24 25 26 27      \\\n       34 35 36 37 38 39      \\\n       46 47 48 49 50 51      \\\n       64 65 66 67 68\n  #define RIGHT_HAND_KEYS     \\\n                                         5  6  7  8  9 \\\n                                     16 17 18 19 20 21 \\\n                                     28 29 30 31 32 33 \\\n                                     40 41 42 43 44 45 \\\n                                     58 59 60 61 62 63 \\\n                                        75 76 77 78 79\n  #define THUMB_KEYS          \\\n                      69 52       57 74                \\\n                       70 53     56 73                 \\\n                        71 54   55 72\n\n\n  //\n  // Home row mods\n  //\n        lh_pht: left_hand_positional_hold_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            label = \"LEFT_POSITIONAL_HOLD_TAP\";\n            #binding-cells = <2>;\n            flavor = \"tap-unless-interrupted\";\n            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]\n            quick-tap-ms = <200>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;    // <---[[right-hand keys]]\n        };\n\n        rh_pht: right_hand_positional_hold_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            label = \"RIGHT_POSITIONAL_HOLD_TAP\";\n            #binding-cells = <2>;\n            flavor = \"tap-unless-interrupted\";\n            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]\n            quick-tap-ms = <200>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;    // <---[[left-hand keys]]\n        };\n\n  homey_left_kp: home_row_mods_left_hand_kp {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_LEFT_HAND_KP\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&kp>, <&kp>;\n  };\n\n  homey_right_kp: home_row_mods_right_hand_kp {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_RIGHT_HAND_KP\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&kp>, <&kp>;\n  };\n  \n    homey_left_mo: home_row_mods_left_hand_mo {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_LEFT_HAND_MO\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&mo>, <&kp>;\n  };\n\n  homey_right_mo: home_row_mods_right_hand_mo {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_RIGHT_HAND_MO\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&mo>, <&kp>;\n  };\n\n  thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n  };\n\n  rh_thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n  };\n\n  lh_thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n  };\n\n  //\n  // Thumb cluster hold-tap keys for layers\n  //\n  thumb_layer: thumb_layer {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"LAYER_TAP_WITH_REPEAT\";\n    flavor = \"balanced\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&mo>, <&kp>;\n  };\n\n  tab_or_cappy: tab_or_cappy {\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"TAB_OR_CAPPY\";\n      #binding-cells = <0>;\n      bindings = <&kp TAB>, <&caps_word>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  esc_or_f4: esc_or_f4 {\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"ESC_OR_F4\";\n      #binding-cells = <0>;\n      bindings = <&kp ESC>, <&kp F4>;\n      mods = <(MOD_LALT)>;\n      keep-mods = <(MOD_LALT)>;\n  };\n\n  //\n  // CapsWord - ported from Pascal Getreuer's extension for QMK\n  // https://zmk.dev/docs/behaviors/caps-word\n  // https://getreuer.info/posts/keyboards/caps-word/index.html\n  //\n  behavior_caps_word {\n      continue-list = <FSLH QUESTION BACKSPACE DELETE N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;\n  };\n/*\n  pound: pound {\n    label = \"POUND\";\n    compatible = \"zmk,behavior-macro\";\n    #binding-cells = <0>;\n    bindings\n      = <&macro_press &kp RALT>\n      , <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N3>\n      , <&macro_release &kp RALT>\n      ;\n  };\n\n  one_or_exclaimation: one_or_exclaimation{\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"ONE_OR_EXCLAIMATION\";\n      #binding-cells = <0>;\n      bindings = <&kp KP_N1>, <&keypress_sticky_layer EXCL 5>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  slash_or_qmark: slash_or_qmark{\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"SLASH_OR_QMARK\";\n      #binding-cells = <0>;\n      bindings = <&kp FSLH>, <&keypress_sticky_layer QMARK 5>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  sls: sticky_layer_slow {\n    compatible = \"zmk,behavior-sticky-key\";\n    label = \"STICKY_LAYER_SLOW\";\n    #binding-cells = <1>;\n    release-after-ms = <60000>;\n    bindings = <&mo>;\n    quick-release;\n  };\n\n  keypress_sticky_layer: keypress_sticky_layer {\n    label = \"KEYPRESS_STICKY_LAYER\";\n    compatible = \"zmk,behavior-macro-two-param\";\n    #binding-cells = <2>;\n    bindings\n      = <&macro_param_1to1>\n      , <&macro_tap &kp MACRO_PLACEHOLDER>\n      , <&macro_param_2to1>\n      , <&macro_tap &sls MACRO_PLACEHOLDER>\n      ;\n  };\n  */\n};",
+  "config_parameters": []
+}
