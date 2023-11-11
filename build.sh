@@ -1,11 +1,20 @@
 #!/bin/sh
 
+tag=v23.11
+
+if [ -d "./src" ]; then
+    cd src
+    if [[ $(git tag) != $tag ]]; then
+        echo "Removing old src directory because it doesn't match the tag."
+        cd ..
+        rm -rf src
+    else
+        cd ..
+    fi
+fi
+
 if [ ! -d "./src" ]; then
-	git clone https://github.com/moergo-sc/zmk.git src
-	cd src
-	# Don't think that is actually needed but let's keep it just to be safe.
-	#git reset --hard 279bc25747f038d7110c99d1903f2a8f482148b4
-	cd ..
+	git clone --depth 1 --branch $tag https://github.com/moergo-sc/zmk.git src
 fi
 
 cp -f $(nix-build config -o combined --no-out-link)/glove80.uf2 .
