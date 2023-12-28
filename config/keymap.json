@@ -1,9 +1,9 @@
 {
   "keyboard": "glove80",
   "uuid": "",
-  "date": 1699697729,
+  "date": 1703777636,
   "creator": "",
-  "parent_uuid": "d145ab77-04f5-4df6-bcd4-393891e2882e",
+  "parent_uuid": "692df8b9-9fde-4e22-badf-f6bfbf5628d4",
   "firmware_api_version": "1",
   "locale": "de-DE",
   "title": "glove80",
@@ -220,10 +220,10 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&tab_or_cappy",
+            "value": "TAB",
             "params": []
           }
         ]
@@ -337,37 +337,37 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "A",
+            "value": "&bhm_left LGUI A",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "S",
+            "value": "&bhm_left LALT S",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "D",
+            "value": "&bhm_left LCTRL D",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "F",
+            "value": "&bhms_left 0 F",
             "params": []
           }
         ]
@@ -391,37 +391,37 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "J",
+            "value": "&bhms_right 0 J",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "K",
+            "value": "&bhm_right RCTRL K",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "L",
+            "value": "&bhm_right LALT L",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "SEMI",
+            "value": "&bhm_right RGUI SEMI",
             "params": []
           }
         ]
@@ -436,10 +436,10 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "LSHFT",
+            "value": "&lshft_or_cappy",
             "params": []
           }
         ]
@@ -589,10 +589,10 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "RSHFT",
+            "value": "&rshft_or_cappy",
             "params": []
           }
         ]
@@ -628,55 +628,72 @@
         "params": []
       },
       {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&space 3 SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb 1 DELETE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb 1 F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb 1 F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb 1 ENTER",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&space 3 BACKSPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
+        "value": "&none",
+        "params": []
+      },
+      {
         "value": "&kp",
         "params": [
           {
-            "value": "SPACE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb_layer 3 DELETE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb_layer 1 F11",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb_layer 1 F12",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb_layer 3 ENTER",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "BSPC",
+            "value": "MINUS",
             "params": []
           }
         ]
@@ -698,23 +715,6 @@
             "params": []
           }
         ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "MINUS",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&none",
-        "params": []
-      },
-      {
-        "value": "&none",
-        "params": []
       }
     ],
     [
@@ -979,10 +979,14 @@
         "params": []
       },
       {
+        "value": "&none",
+        "params": []
+      },
+      {
         "value": "&kp",
         "params": [
           {
-            "value": "LCTRL",
+            "value": "LEFT",
             "params": []
           }
         ]
@@ -991,7 +995,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LEFT_ARROW",
+            "value": "DOWN",
             "params": []
           }
         ]
@@ -1000,16 +1004,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "DOWN_ARROW",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RIGHT_ARROW",
+            "value": "RIGHT",
             "params": []
           }
         ]
@@ -1033,37 +1028,37 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "N4",
+            "value": "&bhms_right 0 N4",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "N5",
+            "value": "&bhm_right RCTRL N5",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "N6",
+            "value": "&bhm_right LALT N6",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "KP_PLUS",
+            "value": "&bhm_right RGUI KP_PLUS",
             "params": []
           }
         ]
@@ -1276,7 +1271,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "N0",
+            "value": "COMMA",
             "params": []
           }
         ]
@@ -1285,7 +1280,7 @@
         "value": "&kp",
         "params": [
           {
-            "value": "KP_DOT",
+            "value": "DOT",
             "params": []
           }
         ]
@@ -1883,10 +1878,10 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "NON_US_BSLH",
+            "value": "&bhm_left LGUI NUBS",
             "params": []
           }
         ]
@@ -1895,7 +1890,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(NUBS)",
+            "value": "&bhm_left LALT LS(NUBS)",
             "params": []
           }
         ]
@@ -1904,7 +1899,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(N8)",
+            "value": "&bhm_left LCTRL LS(N8)",
             "params": []
           }
         ]
@@ -1913,7 +1908,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(N9)",
+            "value": "&bhms_left 0 LS(N9)",
             "params": []
           }
         ]
@@ -1940,7 +1935,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(N1)",
+            "value": "&bhms_right 0 LS(N1)",
             "params": []
           }
         ]
@@ -1949,7 +1944,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(N2)",
+            "value": "&bhm_right RCTRL LS(N2)",
             "params": []
           }
         ]
@@ -1958,7 +1953,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(RBKT)",
+            "value": "&bhm_right LALT LS(RBKT)",
             "params": []
           }
         ]
@@ -1967,7 +1962,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(N0)",
+            "value": "&bhm_right RGUI LS(N0)",
             "params": []
           }
         ]
@@ -2881,6 +2876,7 @@
       }
     ]
   ],
-  "custom_defined_behaviors": "behaviors {\n  //\n  // Miryoku home row mods and thumb layer keys\n  // https://sunaku.github.io/home-row-mods.html\n  // https://github.com/urob/zmk-config#timeless-homerow-mods\n  //\n  // TYPING_STREAK_TERM defines how long you need to wait (milliseconds)\n  // after typing before you can use home row mods again.  It prevents\n  // unintended activation of home row mods when you're actively typing.\n  //\n  #define TYPING_STREAK_TERM 200 // global-quick-tap-ms\n  //\n  // KEY_REPEATING_TERM defines how much time you have left (milliseconds)\n  // after tapping a key to hold it again in order to make it auto-repeat.\n  //\n  #define KEY_REPEATING_TERM 300 // \"tap then hold\" for key auto-repeat\n  //\n  // HOMEY_TAPPING_TERM defines how long you need to hold (milliseconds)\n  // home row mod keys in order to send their modifiers to the computer\n  // (i.e. \"register\" them) for mod-click mouse usage (e.g. Ctrl-Click).\n  //\n  // NOTE: the \"balanced\" flavor of ZMK hold-tap for home row mods already\n  // provides instant modifier activation for keyboard-only usage, so this\n  // setting is meant for combined keyboard/mouse usage such as mod-clicks.\n  //\n  #define HOMEY_TAPPING_TERM 280 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER\n\n  //\n  // THUMB_TAPPING_TERM defines how long you need to hold (milliseconds)\n  // a thumb key to activate a layer.  Shorter holds are treated as taps.\n  //\n  #define THUMB_TAPPING_TERM 240\n  //\n  // Glove80 key positions index for positional hold-tap\n  // https://discord.com/channels/877392805654306816/937645688244826154/1066713913351221248\n  // https://media.discordapp.net/attachments/937645688244826154/1066713913133121556/image.png\n  //\n  // |------------------------|------------------------|\n  // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n  // |                        |                        |\n  // |  0  1  2  3  4         |          5  6  7  8  9 |\n  // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n  // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n  // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n  // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n  // | 64 65 66 67 68         |         75 76 77 78 79 |\n  // |                69 52   |   57 74                |\n  // |                 70 53  |  56 73                 |\n  // |                  71 54 | 55 72                  |\n  // |------------------------|------------------------|\n  //\n  //\n  #define LEFT_HAND_KEYS      \\\n        0  1  2  3  4         \\\n       10 11 12 13 14 15      \\\n       22 23 24 25 26 27      \\\n       34 35 36 37 38 39      \\\n       46 47 48 49 50 51      \\\n       64 65 66 67 68\n  #define RIGHT_HAND_KEYS     \\\n                                         5  6  7  8  9 \\\n                                     16 17 18 19 20 21 \\\n                                     28 29 30 31 32 33 \\\n                                     40 41 42 43 44 45 \\\n                                     58 59 60 61 62 63 \\\n                                        75 76 77 78 79\n  #define THUMB_KEYS          \\\n                      69 52       57 74                \\\n                       70 53     56 73                 \\\n                        71 54   55 72\n\n\n  //\n  // Home row mods\n  //\n        lh_pht: left_hand_positional_hold_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            label = \"LEFT_POSITIONAL_HOLD_TAP\";\n            #binding-cells = <2>;\n            flavor = \"tap-unless-interrupted\";\n            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]\n            quick-tap-ms = <200>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;    // <---[[right-hand keys]]\n        };\n\n        rh_pht: right_hand_positional_hold_tap {\n            compatible = \"zmk,behavior-hold-tap\";\n            label = \"RIGHT_POSITIONAL_HOLD_TAP\";\n            #binding-cells = <2>;\n            flavor = \"tap-unless-interrupted\";\n            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]\n            quick-tap-ms = <200>;\n            bindings = <&kp>, <&kp>;\n            hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;    // <---[[left-hand keys]]\n        };\n\n  homey_left_kp: home_row_mods_left_hand_kp {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_LEFT_HAND_KP\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&kp>, <&kp>;\n  };\n\n  homey_right_kp: home_row_mods_right_hand_kp {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_RIGHT_HAND_KP\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&kp>, <&kp>;\n  };\n  \n    homey_left_mo: home_row_mods_left_hand_mo {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_LEFT_HAND_MO\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&mo>, <&kp>;\n  };\n\n  homey_right_mo: home_row_mods_right_hand_mo {\n      compatible = \"zmk,behavior-hold-tap\";\n      label = \"HOME_ROW_MODS_RIGHT_HAND_MO\";\n      flavor = \"balanced\";\n      hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n      // hold-trigger-on-release is only supported with version p19 which is currently being tested.\n\t  //hold-trigger-on-release; // wait for other home row mods\n      tapping-term-ms = <HOMEY_TAPPING_TERM>;\n      quick-tap-ms = <TYPING_STREAK_TERM>;\n      global-quick-tap; // with typing streak\n      #binding-cells = <2>;\n      bindings = <&mo>, <&kp>;\n  };\n\n  thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n  };\n\n  /*rh_thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n  };\n\n  lh_thumb_key: thumb_key {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"THUMB_KEY\";\n    flavor = \"hold-preferred\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&kp>, <&kp>;\n    hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n  };*/\n\n  //\n  // Thumb cluster hold-tap keys for layers\n  //\n  thumb_layer: thumb_layer {\n    compatible = \"zmk,behavior-hold-tap\";\n    label = \"LAYER_TAP_WITH_REPEAT\";\n    flavor = \"balanced\";\n    tapping-term-ms = <THUMB_TAPPING_TERM>;\n    quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat\n    //global-quick-tap; // no typing streak\n    #binding-cells = <2>;\n    bindings = <&mo>, <&kp>;\n  };\n\n  tab_or_cappy: tab_or_cappy {\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"TAB_OR_CAPPY\";\n      #binding-cells = <0>;\n      bindings = <&kp TAB>, <&caps_word>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  esc_or_f4: esc_or_f4 {\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"ESC_OR_F4\";\n      #binding-cells = <0>;\n      bindings = <&kp ESC>, <&kp F4>;\n      mods = <(MOD_LALT)>;\n      keep-mods = <(MOD_LALT)>;\n  };\n\n  //\n  // CapsWord - ported from Pascal Getreuer's extension for QMK\n  // https://zmk.dev/docs/behaviors/caps-word\n  // https://getreuer.info/posts/keyboards/caps-word/index.html\n  //\n  behavior_caps_word {\n      continue-list = <FSLH QUESTION BACKSPACE DELETE N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;\n  };\n/*\n  pound: pound {\n    label = \"POUND\";\n    compatible = \"zmk,behavior-macro\";\n    #binding-cells = <0>;\n    bindings\n      = <&macro_press &kp RALT>\n      , <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N3>\n      , <&macro_release &kp RALT>\n      ;\n  };\n\n  one_or_exclaimation: one_or_exclaimation{\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"ONE_OR_EXCLAIMATION\";\n      #binding-cells = <0>;\n      bindings = <&kp KP_N1>, <&keypress_sticky_layer EXCL 5>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  slash_or_qmark: slash_or_qmark{\n      compatible = \"zmk,behavior-mod-morph\";\n      label = \"SLASH_OR_QMARK\";\n      #binding-cells = <0>;\n      bindings = <&kp FSLH>, <&keypress_sticky_layer QMARK 5>;\n      mods = <(MOD_LSFT|MOD_RSFT)>;\n  };\n\n  sls: sticky_layer_slow {\n    compatible = \"zmk,behavior-sticky-key\";\n    label = \"STICKY_LAYER_SLOW\";\n    #binding-cells = <1>;\n    release-after-ms = <60000>;\n    bindings = <&mo>;\n    quick-release;\n  };\n\n  keypress_sticky_layer: keypress_sticky_layer {\n    label = \"KEYPRESS_STICKY_LAYER\";\n    compatible = \"zmk,behavior-macro-two-param\";\n    #binding-cells = <2>;\n    bindings\n      = <&macro_param_1to1>\n      , <&macro_tap &kp MACRO_PLACEHOLDER>\n      , <&macro_param_2to1>\n      , <&macro_tap &sls MACRO_PLACEHOLDER>\n      ;\n  };\n  */\n};",
+  "custom_defined_behaviors": "\nbehaviors {\n\n  // Glove80 key positions\n  // |------------------------|------------------------|\n  // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n  // |                        |                        |\n  // |  0  1  2  3  4         |          5  6  7  8  9 |\n  // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n  // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n  // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n  // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n  // | 64 65 66 67 68         |         75 76 77 78 79 |\n  // |                69 52   |   57 74                |\n  // |                 70 53  |  56 73                 |\n  // |                  71 54 | 55 72                  |\n  // |------------------------|------------------------|\n  //\n  //\n  #define LEFT_HAND_KEYS 0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68\n\n\n  #define RIGHT_HAND_KEYS 5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79\n\n\n  #define THUMB_KEYS 69 52 57 74 70 53 56 73 71 54 55 72\n\n\n\t// https://zmk.dev/docs/behaviors/hold-tap#hold-tap\n\tbhm_right: bhm_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\t\t\n\tbhm_left: bhm_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\t\n\tbhms_right: bhms_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&rshft_or_cappy>, <&kp>;\n\t};\n\t\n\tbhms_left: bhms_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&lshft_or_cappy>, <&kp>;\n\t};\n\n    space: space {\n        compatible = \"zmk,behavior-hold-tap\";\n        flavor = \"balanced\";\n        tapping-term-ms = <170>;\n        quick-tap-ms = <200>;\n        retro-tap;\n        #binding-cells = <2>;\n        bindings = <&mo>, <&kp>;\n    };\n\t\n\tthumb: thumb {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tflavor = \"balanced\";\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t#binding-cells = <2>;\n\t\tbindings = <&mo>, <&kp>;\n\t};\n\n\tlshft_or_cappy: lshft_or_cappy {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp LSHFT>, <&caps_word>;\n\t\tmods = <(MOD_LSFT|MOD_RSFT)>;\n\t};\n\n\trshft_or_cappy: rshft_or_cappy {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp RSHFT>, <&caps_word>;\n\t\tmods = <(MOD_LSFT|MOD_RSFT)>;\n\t};\n\n\tbehavior_caps_word {\n\t\tcontinue-list = <FSLH QUESTION BACKSPACE DELETE N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;\n\t};\n\n\tesc_or_f4: esc_or_f4 {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp ESC>, <&kp F4>;\n\t\tmods = <(MOD_LALT)>;\n\t\tkeep-mods = <(MOD_LALT)>;\n\t};\n};\n",
+  "custom_devicetree": "",
   "config_parameters": []
 }

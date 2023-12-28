@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tag=v23.11
+tag=v23.12
 
 if [ -d "./src" ]; then
     cd src
