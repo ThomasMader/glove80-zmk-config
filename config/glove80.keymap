@@ -298,6 +298,7 @@ behaviors {
 	// https://zmk.dev/docs/behaviors/hold-tap#hold-tap
 	bhm_right: bhm_right {
 		compatible = "zmk,behavior-hold-tap";
+		label = "bhm_right";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		quick-tap-ms = <200>;
@@ -310,6 +311,7 @@ behaviors {
 		
 	bhm_left: bhm_left {
 		compatible = "zmk,behavior-hold-tap";
+		label = "bhm_left";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		quick-tap-ms = <200>;
@@ -322,6 +324,7 @@ behaviors {
 	
 	bhms_right: bhms_right {
 		compatible = "zmk,behavior-hold-tap";
+		label = "bhms_right";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		quick-tap-ms = <200>;
@@ -334,6 +337,7 @@ behaviors {
 	
 	bhms_left: bhms_left {
 		compatible = "zmk,behavior-hold-tap";
+		label = "bhms_left";
 		#binding-cells = <2>;
 		tapping-term-ms = <200>;
 		quick-tap-ms = <200>;
@@ -344,18 +348,20 @@ behaviors {
 		bindings = <&lshft_or_cappy>, <&kp>;
 	};
 
-    space: space {
-        compatible = "zmk,behavior-hold-tap";
-        flavor = "balanced";
-        tapping-term-ms = <170>;
-        quick-tap-ms = <200>;
-        retro-tap;
-        #binding-cells = <2>;
-        bindings = <&mo>, <&kp>;
-    };
+	space: space {
+		compatible = "zmk,behavior-hold-tap";
+		label = "space";
+		flavor = "balanced";
+		tapping-term-ms = <170>;
+		quick-tap-ms = <200>;
+		retro-tap;
+		#binding-cells = <2>;
+		bindings = <&mo>, <&kp>;
+	};
 	
 	thumb: thumb {
 		compatible = "zmk,behavior-hold-tap";
+		label = "thumb";
 		flavor = "balanced";
 		tapping-term-ms = <200>;
 		quick-tap-ms = <200>;
@@ -365,6 +371,7 @@ behaviors {
 
 	lshft_or_cappy: lshft_or_cappy {
 		compatible = "zmk,behavior-mod-morph";
+		label = "lshft_or_cappy";
 		#binding-cells = <0>;
 		bindings = <&kp LSHFT>, <&caps_word>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -372,6 +379,7 @@ behaviors {
 
 	rshft_or_cappy: rshft_or_cappy {
 		compatible = "zmk,behavior-mod-morph";
+		label = "rshft_or_cappy";
 		#binding-cells = <0>;
 		bindings = <&kp RSHFT>, <&caps_word>;
 		mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -383,6 +391,7 @@ behaviors {
 
 	esc_or_f4: esc_or_f4 {
 		compatible = "zmk,behavior-mod-morph";
+		label = "esc_or_f4";
 		#binding-cells = <0>;
 		bindings = <&kp ESC>, <&kp F4>;
 		mods = <(MOD_LALT)>;
