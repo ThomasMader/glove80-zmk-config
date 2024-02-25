@@ -349,6 +349,18 @@
 		bindings = <&lshft_or_cappy>, <&kp>;
 	};
 
+	thumb: thumb {
+		compatible = "zmk,behavior-hold-tap";
+		label = "thumb";
+		#binding-cells = <2>;
+		tapping-term-ms = <TAPPING_TERM_MS>;
+		flavor = "balanced";
+		bindings = <&mo>, <&kp>;
+	};
+
+    // Old space introduces additional spaces when typing fast in combination
+    // with the symbol layer. e.g.: 'var tmp =' becomes 'var tmp  ö'
+    /*
 	space: space {
 		compatible = "zmk,behavior-hold-tap";
 		label = "space";
@@ -359,7 +371,10 @@
 		#binding-cells = <2>;
 		bindings = <&mo>, <&kp>;
 	};
+    */
 	
+    // Old thumb
+    /*
 	thumb: thumb {
 		compatible = "zmk,behavior-hold-tap";
 		label = "thumb";
@@ -369,6 +384,7 @@
 		#binding-cells = <2>;
 		bindings = <&mo>, <&kp>;
 	};
+    */
 
 	lshft_or_cappy: lshft_or_cappy {
 		compatible = "zmk,behavior-mod-morph";
@@ -414,7 +430,7 @@
               &kp TAB             &kp Q             &kp W              &kp E           &kp R   &kp T                                                                                                    &kp Y            &kp U               &kp I              &kp O                 &kp P         &kp LBKT
            &esc_or_f4  &bhm_left LGUI A  &bhm_left LALT S  &bhm_left LCTRL D  &bhms_left 0 F   &kp G                                                                                                    &kp H  &bhms_right 0 J  &bhm_right RCTRL K  &bhm_right LALT L  &bhm_right RGUI SEMI          &kp SQT
       &lshft_or_cappy             &kp Z             &kp X              &kp C           &kp V   &kp B       &kp LCTRL         &kp LALT      &kp LGUI      &kp RGUI        &kp RALT           &kp RCTRL   &kp N            &kp M           &kp COMMA            &kp DOT              &kp FSLH  &rshft_or_cappy
- &magic LAYER_Magic 0          &kp LEFT          &kp DOWN             &kp UP       &kp RIGHT          &space 3 SPACE  &thumb 1 DELETE  &thumb 1 F11  &thumb 1 F12  &thumb 1 ENTER  &space 3 BACKSPACE                 &kp HOME             &kp END          &kp MINUS             &kp PG_UP        &kp PG_DN
+ &magic LAYER_Magic 0          &kp LEFT          &kp DOWN             &kp UP       &kp RIGHT          &thumb 3 SPACE  &thumb 1 DELETE  &thumb 1 F11  &thumb 1 F12  &thumb 1 ENTER  &thumb 3 BACKSPACE                 &kp HOME             &kp END          &kp MINUS             &kp PG_UP        &kp PG_DN
             >;
         };
 
