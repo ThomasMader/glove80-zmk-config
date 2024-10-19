@@ -1,23 +1,25 @@
 {
   "keyboard": "glove80",
-  "uuid": "",
-  "date": 1703777636,
-  "creator": "",
-  "parent_uuid": "692df8b9-9fde-4e22-badf-f6bfbf5628d4",
   "firmware_api_version": "1",
   "locale": "de-DE",
+  "uuid": "",
+  "parent_uuid": "769c49f2-1c6c-4862-b820-8824d05ffdab",
+  "date": 1729360824,
+  "creator": "thomasmader",
   "title": "glove80",
-  "notes": "german keyboard layout special characters:\n^ -> &kp GRAVE\n° -> &kp LS(GRAVE)\n| -> &kp RA(NUBS)\n\\ -> &kp RA(MINUS)\n? -> &kp LS(MINUS)\n' -> &kp LS(NON_US_HASH)\n´ -> &kp EQUAL\n` -> &kp LS(EQUAL)\n# -> &kp NON_US_HASH\n+ -> &kp RBKT\n* -> &kp LS(RBKT)\n~ -> &kp RA(RBKT)\n< -> &kp NUBS\n> -> &kp LS(NUBS)\n",
+  "notes": "German keyboard layout special characters:\n^ -> &kp GRAVE\n° -> &kp LS(GRAVE)\n| -> &kp RA(NUBS)\n\\ -> &kp RA(MINUS)\n? -> &kp LS(MINUS)\n' -> &kp LS(NON_US_HASH)\n´ -> &kp EQUAL\n` -> &kp LS(EQUAL)\n# -> &kp NON_US_HASH\n+ -> &kp RBKT\n* -> &kp LS(RBKT)\n~ -> &kp RA(RBKT)\n< -> &kp NUBS\n> -> &kp LS(NUBS)\n",
   "tags": [
     "german"
   ],
-  "unlisted": false,
+  "custom_defined_behaviors": "macros {\n\tcaret: caret {\n\t\tcompatible = \"zmk,behavior-macro\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp GRAVE &kp SPACE>;\n\t};\n\n\tgrave: grave {\n\t\tcompatible = \"zmk,behavior-macro\";\n\t\t#binding-cells = <0>;\n\t\tbindings\n\t\t\t= <&macro_press &kp LSHFT>\n\t\t\t, <&macro_tap &kp EQUAL &kp SPACE>\n\t\t\t, <&macro_release &kp LSHFT>\n\t\t\t;\n\t};\n\n\t// Not used because the acute is more useful as a deadkey currently\n\tacute: acute {\n\t\tcompatible = \"zmk,behavior-macro\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&macro_tap &kp EQUAL &kp SPACE>;\n\t};\n};\n\n\nbehaviors {\n\n  // Glove80 key positions\n  // |------------------------|------------------------|\n  // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n  // |                        |                        |\n  // |  0  1  2  3  4         |          5  6  7  8  9 |\n  // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n  // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n  // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n  // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n  // | 64 65 66 67 68         |         75 76 77 78 79 |\n  // |                69 52   |   57 74                |\n  // |                 70 53  |  56 73                 |\n  // |                  71 54 | 55 72                  |\n  // |------------------------|------------------------|\n  //\n  //\n  #define LEFT_HAND_KEYS 0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68\n\n\n  #define RIGHT_HAND_KEYS 5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79\n\n\n  #define THUMB_KEYS 69 52 57 74 70 53 56 73 71 54 55 72\n\n  #define TAPPING_TERM_MS 200\n  #define QUICK_TAP_MS 300\n  #define REQUIRE_PRIOR_IDLE_MS 125\n\n\t// https://zmk.dev/docs/behaviors/hold-tap#hold-tap\n\tbhm_right: bhm_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"bhm_right\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\trequire-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;\n\t\thold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\t\t\n\tbhm_left: bhm_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"bhm_left\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\trequire-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\n\thrm_mo_right: hrm_mo_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"hrm_mo_right\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\trequire-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&mo>, <&kp>;\n\t};\n\n\thrm_mo_left: hrm_mo_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"hrm_mo_left\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\trequire-prior-idle-ms = <REQUIRE_PRIOR_IDLE_MS>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&mo>, <&kp>;\n\t};\n\n\tthumb_mo_kp: thumb_mo_kp {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"thumb_mo_kp\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&mo>, <&kp>;\n\t};\n\n\tthumb_kp_kp: thumb_kp_kp {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"thumb_kp_kp\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\n    // Old space introduces additional spaces when typing fast in combination\n    // with the symbol layer. e.g.: 'var tmp = \"' becomes 'var tmp  ö'\n    /*\n\tspace: space {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"space\";\n\t\tflavor = \"balanced\";\n\t\ttapping-term-ms = <170>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\tretro-tap;\n\t\t#binding-cells = <2>;\n\t\tbindings = <&mo>, <&kp>;\n\t};\n    */\n\t\n    // Old thumb\n    /*\n\tthumb: thumb {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tlabel = \"thumb\";\n\t\tflavor = \"balanced\";\n\t\ttapping-term-ms = <TAPPING_TERM_MS>;\n\t\tquick-tap-ms = <QUICK_TAP_MS>;\n\t\t#binding-cells = <2>;\n\t\tbindings = <&mo>, <&kp>;\n\t};\n    */\n\n\tesc_or_f4: esc_or_f4 {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\tlabel = \"esc_or_f4\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp ESC>, <&kp F4>;\n\t\tmods = <(MOD_LALT)>;\n\t\tkeep-mods = <(MOD_LALT)>;\n\t};\n};\n",
+  "custom_devicetree": "\t&caps_word {\n\t\tcontinue-list = <\n\t\t\tUNDERSCORE MINUS FSLH DOT COMMA SPACE GRAVE NUBS NON_US_HASH EQUAL RBKT PLUS\n\t\t\tBACKSPACE DELETE ENTER TAB ESCAPE\n\t\t\tLEFT_SHIFT RIGHT_SHIFT LEFT UP DOWN RIGHT HOME END PG_UP PG_DN\n\t\t\tN1 N2 N3 N4 N5 N6 N7 N8 N9 N0 F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12\n\t\t>;\n\t};",
+  "config_parameters": [],
   "layer_names": [
     "Base",
     "Lower",
     "Magic",
     "Symbol",
-    "Game"
+    "NoHomerowMods"
   ],
   "layers": [
     [
@@ -211,13 +213,8 @@
         ]
       },
       {
-        "value": "&tog",
-        "params": [
-          {
-            "value": 4,
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -328,10 +325,10 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&esc_or_f4",
+            "value": "ESC",
             "params": []
           }
         ]
@@ -340,7 +337,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LGUI A",
+            "value": "&bhm_left LCTRL A",
             "params": []
           }
         ]
@@ -349,7 +346,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LALT S",
+            "value": "&bhm_left LSHFT S",
             "params": []
           }
         ]
@@ -358,7 +355,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LCTRL D",
+            "value": "&bhm_left LALT D",
             "params": []
           }
         ]
@@ -367,7 +364,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhms_left 0 F",
+            "value": "&hrm_mo_left 1 F",
             "params": []
           }
         ]
@@ -394,7 +391,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhms_right 0 J",
+            "value": "&hrm_mo_right 1 J",
             "params": []
           }
         ]
@@ -403,7 +400,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RCTRL K",
+            "value": "&bhm_right LALT K",
             "params": []
           }
         ]
@@ -412,7 +409,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right LALT L",
+            "value": "&bhm_right RSHFT L",
             "params": []
           }
         ]
@@ -421,7 +418,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RGUI SEMI",
+            "value": "&bhm_right RCTRL SEMI",
             "params": []
           }
         ]
@@ -436,10 +433,10 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&lshft_or_cappy",
+            "value": "LSHFT",
             "params": []
           }
         ]
@@ -493,37 +490,22 @@
         "value": "&kp",
         "params": [
           {
-            "value": "LCTRL",
+            "value": "DEL",
             "params": []
           }
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LALT",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LGUI",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RGUI",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -535,13 +517,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RCTRL",
-            "params": []
-          }
-        ]
+        "value": "&caps_word",
+        "params": []
       },
       {
         "value": "&kp",
@@ -589,10 +566,10 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&rshft_or_cappy",
+            "value": "RSHFT",
             "params": []
           }
         ]
@@ -600,6 +577,96 @@
       {
         "value": "&magic",
         "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LEFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DOWN",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "UP",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RIGHT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_kp_kp LCTRL SPACE",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_kp_kp LGUI ENTER",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&thumb_mo_kp 3 BACKSPACE",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -618,76 +685,6 @@
             "params": []
           }
         ]
-      },
-      {
-        "value": "&none",
-        "params": []
-      },
-      {
-        "value": "&none",
-        "params": []
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&space 3 SPACE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb 1 DELETE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb 1 F11",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb 1 F12",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&thumb 1 ENTER",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&space 3 BACKSPACE",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&none",
-        "params": []
-      },
-      {
-        "value": "&none",
-        "params": []
       },
       {
         "value": "&kp",
@@ -824,13 +821,8 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "HOME",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -899,26 +891,16 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "UP_ARROW",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&none",
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "END",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -979,44 +961,39 @@
         "params": []
       },
       {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LCTRL",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LSHFT",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LALT",
+            "params": []
+          }
+        ]
+      },
+      {
         "value": "&none",
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LEFT",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "DOWN",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RIGHT",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "PG_UP",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -1028,10 +1005,10 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&bhms_right 0 N4",
+            "value": "N4",
             "params": []
           }
         ]
@@ -1040,7 +1017,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RCTRL N5",
+            "value": "&bhm_right LALT N5",
             "params": []
           }
         ]
@@ -1049,7 +1026,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right LALT N6",
+            "value": "&bhm_right RSHFT N6",
             "params": []
           }
         ]
@@ -1058,7 +1035,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RGUI KP_PLUS",
+            "value": "&bhm_right RCTRL KP_PLUS",
             "params": []
           }
         ]
@@ -1085,31 +1062,16 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F11",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F12",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "PG_DN",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1203,42 +1165,15 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "INS",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F11",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "F12",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&trans",
+        "value": "&none",
         "params": []
       },
       {
-        "value": "&trans",
+        "value": "&none",
         "params": []
       },
       {
-        "value": "&trans",
+        "value": "&none",
         "params": []
       },
       {
@@ -1251,12 +1186,39 @@
         ]
       },
       {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RET",
+            "params": []
+          }
+        ]
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "DEL",
+            "params": []
+          }
+        ]
+      },
+      {
         "value": "&trans",
         "params": []
       },
       {
         "value": "&trans",
         "params": []
+      },
+      {
+        "value": "&kp",
+        "params": [
+          {
+            "value": "BSPC",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -1780,10 +1742,10 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "GRAVE",
+            "value": "&caret",
             "params": []
           }
         ]
@@ -1881,7 +1843,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LGUI NUBS",
+            "value": "&bhm_left LCTRL NUBS",
             "params": []
           }
         ]
@@ -1890,7 +1852,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LALT LS(NUBS)",
+            "value": "&bhm_left LSHFT LS(NUBS)",
             "params": []
           }
         ]
@@ -1899,7 +1861,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_left LCTRL LS(N8)",
+            "value": "&bhm_left LALT LS(N8)",
             "params": []
           }
         ]
@@ -1908,7 +1870,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhms_left 0 LS(N9)",
+            "value": "&kp LS(N9)",
             "params": []
           }
         ]
@@ -1935,7 +1897,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhms_right 0 LS(N1)",
+            "value": "&kp LS(N1)",
             "params": []
           }
         ]
@@ -1944,7 +1906,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RCTRL LS(N2)",
+            "value": "&bhm_right LALT LS(N2)",
             "params": []
           }
         ]
@@ -1953,7 +1915,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right LALT LS(RBKT)",
+            "value": "&bhm_right RSHFT LS(RBKT)",
             "params": []
           }
         ]
@@ -1962,14 +1924,19 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&bhm_right RGUI LS(N0)",
+            "value": "&bhm_right RCTRL LS(N0)",
             "params": []
           }
         ]
       },
       {
-        "value": "&trans",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "EQUAL",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans",
@@ -2045,10 +2012,10 @@
         "params": []
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "EQUAL",
+            "value": "&kp RA(M)",
             "params": []
           }
         ]
@@ -2066,7 +2033,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&kp LS(EQUAL)",
+            "value": "&grave",
             "params": []
           }
         ]
@@ -2876,7 +2843,7 @@
       }
     ]
   ],
-  "custom_defined_behaviors": "\nbehaviors {\n\n  // Glove80 key positions\n  // |------------------------|------------------------|\n  // | LEFT_HAND_KEYS         |        RIGHT_HAND_KEYS |\n  // |                        |                        |\n  // |  0  1  2  3  4         |          5  6  7  8  9 |\n  // | 10 11 12 13 14 15      |      16 17 18 19 20 21 |\n  // | 22 23 24 25 26 27      |      28 29 30 31 32 33 |\n  // | 34 35 36 37 38 39      |      40 41 42 43 44 45 |\n  // | 46 47 48 49 50 51      |      58 59 60 61 62 63 |\n  // | 64 65 66 67 68         |         75 76 77 78 79 |\n  // |                69 52   |   57 74                |\n  // |                 70 53  |  56 73                 |\n  // |                  71 54 | 55 72                  |\n  // |------------------------|------------------------|\n  //\n  //\n  #define LEFT_HAND_KEYS 0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68\n\n\n  #define RIGHT_HAND_KEYS 5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79\n\n\n  #define THUMB_KEYS 69 52 57 74 70 53 56 73 71 54 55 72\n\n\n\t// https://zmk.dev/docs/behaviors/hold-tap#hold-tap\n\tbhm_right: bhm_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\t\t\n\tbhm_left: bhm_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&kp>, <&kp>;\n\t};\n\t\n\tbhms_right: bhms_right {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&rshft_or_cappy>, <&kp>;\n\t};\n\t\n\tbhms_left: bhms_left {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\t#binding-cells = <2>;\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t//require-prior-idle-ms = <150>;\n\t\thold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;\n\t\thold-trigger-on-release;\n\t\tflavor = \"balanced\";\n\t\tbindings = <&lshft_or_cappy>, <&kp>;\n\t};\n\n    space: space {\n        compatible = \"zmk,behavior-hold-tap\";\n        flavor = \"balanced\";\n        tapping-term-ms = <170>;\n        quick-tap-ms = <200>;\n        retro-tap;\n        #binding-cells = <2>;\n        bindings = <&mo>, <&kp>;\n    };\n\t\n\tthumb: thumb {\n\t\tcompatible = \"zmk,behavior-hold-tap\";\n\t\tflavor = \"balanced\";\n\t\ttapping-term-ms = <200>;\n\t\tquick-tap-ms = <200>;\n\t\t#binding-cells = <2>;\n\t\tbindings = <&mo>, <&kp>;\n\t};\n\n\tlshft_or_cappy: lshft_or_cappy {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp LSHFT>, <&caps_word>;\n\t\tmods = <(MOD_LSFT|MOD_RSFT)>;\n\t};\n\n\trshft_or_cappy: rshft_or_cappy {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp RSHFT>, <&caps_word>;\n\t\tmods = <(MOD_LSFT|MOD_RSFT)>;\n\t};\n\n\tbehavior_caps_word {\n\t\tcontinue-list = <FSLH QUESTION BACKSPACE DELETE N1 N2 N3 N4 N5 N6 N7 N8 N9 N0>;\n\t};\n\n\tesc_or_f4: esc_or_f4 {\n\t\tcompatible = \"zmk,behavior-mod-morph\";\n\t\t#binding-cells = <0>;\n\t\tbindings = <&kp ESC>, <&kp F4>;\n\t\tmods = <(MOD_LALT)>;\n\t\tkeep-mods = <(MOD_LALT)>;\n\t};\n};\n",
-  "custom_devicetree": "",
-  "config_parameters": []
+  "macros": [],
+  "holdTaps": [],
+  "combos": []
 }
