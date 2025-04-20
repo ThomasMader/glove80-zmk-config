@@ -3,8 +3,8 @@
   "firmware_api_version": "1",
   "locale": "de-DE",
   "uuid": "",
-  "parent_uuid": "368f723c-d798-4d9e-bd6d-149078c2fa87",
-  "date": 1738407446,
+  "parent_uuid": "fbd2228d-3922-486d-b571-47efe3b309b1",
+  "date": 1745145043,
   "creator": "thomasmader",
   "title": "glove80",
   "notes": "German keyboard layout special characters:\n^ -> &kp GRAVE\n° -> &kp LS(GRAVE)\n| -> &kp RA(NUBS)\n\\ -> &kp RA(MINUS)\n? -> &kp LS(MINUS)\n' -> &kp LS(NON_US_HASH)\n´ -> &kp EQUAL\n` -> &kp LS(EQUAL)\n# -> &kp NON_US_HASH\n+ -> &kp RBKT\n* -> &kp LS(RBKT)\n~ -> &kp RA(RBKT)\n< -> &kp NUBS\n> -> &kp LS(NUBS)\n",
@@ -19,7 +19,7 @@
     "Lower",
     "Magic",
     "Symbol",
-    "NoHomerowMods"
+    "Normal"
   ],
   "layers": [
     [
@@ -496,8 +496,13 @@
         ]
       },
       {
-        "value": "&none",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "BSPC",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&none",
@@ -511,14 +516,19 @@
         "value": "&kp",
         "params": [
           {
-            "value": "RALT",
+            "value": "PSCRN",
             "params": []
           }
         ]
       },
       {
-        "value": "&caps_word",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "RALT",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -615,19 +625,19 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&thumb_kp_kp LCTRL SPACE",
+            "value": "SPACE",
             "params": []
           }
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&thumb_kp_kp LGUI ENTER",
+            "value": "RET",
             "params": []
           }
         ]
@@ -716,76 +726,36 @@
     ],
     [
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_BRI_DN",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_BRI_UP",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_PREV",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_NEXT",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_PP",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_MUTE",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_VOL_DN",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C_VOL_UP",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&none",
@@ -795,13 +765,13 @@
         "value": "&kp",
         "params": [
           {
-            "value": "PAUSE_BREAK",
+            "value": "PSCRN",
             "params": []
           }
         ]
       },
       {
-        "value": "&trans",
+        "value": "&none",
         "params": []
       },
       {
@@ -948,13 +918,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "SCROLLLOCK",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1014,28 +979,28 @@
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&bhm_right LALT N5",
+            "value": "N5",
             "params": []
           }
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&bhm_right RSHFT N6",
+            "value": "N6",
             "params": []
           }
         ]
       },
       {
-        "value": "Custom",
+        "value": "&kp",
         "params": [
           {
-            "value": "&bhm_right RCTRL KP_PLUS",
+            "value": "KP_PLUS",
             "params": []
           }
         ]
@@ -1049,20 +1014,15 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "K_APP",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&none",
         "params": []
       },
       {
-        "value": "&none",
+        "value": "&caps_word",
         "params": []
       },
       {
@@ -1156,21 +1116,26 @@
         "params": []
       },
       {
+        "value": "&none",
+        "params": []
+      },
+      {
         "value": "&kp",
         "params": [
           {
-            "value": "CAPS",
+            "value": "PG_DN",
             "params": []
           }
         ]
       },
       {
-        "value": "&none",
-        "params": []
-      },
-      {
-        "value": "&none",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "PG_UP",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&none",
@@ -1257,7 +1222,7 @@
         ]
       },
       {
-        "value": "&trans",
+        "value": "&none",
         "params": []
       }
     ],
@@ -2640,13 +2605,8 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RCTRL",
-            "params": []
-          }
-        ]
+        "value": "&none",
+        "params": []
       },
       {
         "value": "&kp",
@@ -2844,6 +2804,7 @@
     ]
   ],
   "macros": [],
+  "inputListeners": [],
   "holdTaps": [],
   "combos": []
 }
