@@ -2,9 +2,9 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "de-DE",
-  "uuid": "",
+  "uuid": "188b22a0-c25a-413b-965b-8e1974572274",
   "parent_uuid": "fbd2228d-3922-486d-b571-47efe3b309b1",
-  "date": 1745145043,
+  "date": 1745658835,
   "creator": "thomasmader",
   "title": "glove80",
   "notes": "German keyboard layout special characters:\n^ -> &kp GRAVE\n° -> &kp LS(GRAVE)\n| -> &kp RA(NUBS)\n\\ -> &kp RA(MINUS)\n? -> &kp LS(MINUS)\n' -> &kp LS(NON_US_HASH)\n´ -> &kp EQUAL\n` -> &kp LS(EQUAL)\n# -> &kp NON_US_HASH\n+ -> &kp RBKT\n* -> &kp LS(RBKT)\n~ -> &kp RA(RBKT)\n< -> &kp NUBS\n> -> &kp LS(NUBS)\n",
@@ -505,8 +505,13 @@
         ]
       },
       {
-        "value": "&none",
-        "params": []
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LGUI",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&none",
@@ -625,10 +630,10 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "Custom",
         "params": [
           {
-            "value": "SPACE",
+            "value": "&thumb_kp_kp LCTRL SPACE",
             "params": []
           }
         ]
@@ -1042,13 +1047,8 @@
         "params": []
       },
       {
-        "value": "&to",
-        "params": [
-          {
-            "value": 0,
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
