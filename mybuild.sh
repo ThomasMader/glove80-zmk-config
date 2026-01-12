@@ -1,8 +1,6 @@
 #!/bin/sh
 
-# Can not use tag v25.01 because it added name paramter to the combine function.
-#commit=v25.01
-commit=faf11f929a65a12a688b481cbe333eda1fd83a77
+commit=v25.11
 
 if [ -d "./src" ]; then
   cd src

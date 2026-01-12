@@ -22,7 +22,45 @@
 /* On demand includes */
 
 
-/* Automatically generated layer name #define */
+/* Helper Macros, based on https://github.com/urob/zmk-helpers/ */
+
+#pragma once
+
+#define ZMK_HELPER_STRINGIFY(x) #x
+
+// Preprocessor mechanism to overload macros, cf. https://stackoverflow.com/a/27051616/6114651
+#define VARGS_(_10, _9, _8, _7, _6, _5, _4, _3, _2, _1, N, ...) N
+#define VARGS(...) VARGS_(__VA_ARGS__, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0)
+#define CONCAT_(a, b) a##b
+#define CONCAT(a, b) CONCAT_(a, b)
+
+#define ZMK_BEHAVIOR_CORE_tap_dance  \
+    compatible = "zmk,behavior-tap-dance"; \
+    #binding-cells = <0>
+
+#define ZMK_BEHAVIOR(name, type, ...) \
+    name: name { \
+        ZMK_BEHAVIOR_CORE_ ## type; \
+        __VA_ARGS__ \
+    };
+
+#define ZMK_TAP_DANCE(name, ...) \
+    ZMK_BEHAVIOR(name, tap_dance, __VA_ARGS__)
+
+#define ZMK_TD_LAYER(name, layer) \
+    ZMK_TAP_DANCE(name, \
+        tapping-term-ms = <200>; \
+        bindings = <&mo layer>, <&to layer>; \
+)
+
+/* Environment and metadata defines */
+#define KB_TYPE_GLOVE_80 1
+#define KB_TYPE_GO_60    2
+
+#define KB_TYPE          KB_TYPE_GLOVE_80
+#define EDITOR_HOST_OS   'L'
+
+/* Automatically generated layer name defines */
 #define LAYER_Base 0
 #define LAYER_Lower 1
 #define LAYER_Magic 2
@@ -50,15 +88,7 @@
 /* System behavior and Macros */
 / {
     behaviors {
-        // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
-        // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
-        lower: lower {
-            compatible = "zmk,behavior-tap-dance";
-            label = "LAYER_TAP_DANCE";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo LAYER_Lower>, <&to LAYER_Lower>;
-        };
+        ZMK_TD_LAYER(lower, LAYER_Lower)
     };
 };
 
@@ -192,87 +222,121 @@
     };
 };
 
-/* #define for key positions */
+
+/* Locale-specific keycodes */
+
+#define DE_CIRCUM GRAVE
+#define DE_SZ MINUS
+#define DE_ACUTE EQUAL
+#define DE_Q Q
+#define DE_E E
+#define DE_Y Z
+#define DE_UE LEFT_BRACKET
+#define DE_PLUS RIGHT_BRACKET
+#define DE_M M
+#define DE_OE SEMICOLON
+#define DE_AE SINGLE_QUOTE
+#define DE_POUND BACKSLASH
+#define DE_Z Y
+#define DE_LT NON_US_BACKSLASH
+#define DE_COMMA COMMA
+#define DE_DOT PERIOD
+#define DE_MINUS SLASH
+#define DE_N1 N1
+#define DE_N2 N2
+#define DE_N3 N3
+#define DE_N4 N4
+#define DE_N5 N5
+#define DE_N6 N6
+#define DE_N7 N7
+#define DE_N8 N8
+#define DE_N9 N9
+#define DE_N0 N0
+
+
+/* Key positions */
+
+#define POS_LH_C6R1 0
+#define POS_LH_C5R1 1
+#define POS_LH_C4R1 2
+#define POS_LH_C3R1 3
+#define POS_LH_C2R1 4
+#define POS_RH_C2R1 5
+#define POS_RH_C3R1 6
+#define POS_RH_C4R1 7
+#define POS_RH_C5R1 8
+#define POS_RH_C6R1 9
+#define POS_LH_C6R2 10
+#define POS_LH_C5R2 11
+#define POS_LH_C4R2 12
+#define POS_LH_C3R2 13
+#define POS_LH_C2R2 14
+#define POS_LH_C1R2 15
+#define POS_RH_C1R2 16
+#define POS_RH_C2R2 17
+#define POS_RH_C3R2 18
+#define POS_RH_C4R2 19
+#define POS_RH_C5R2 20
+#define POS_RH_C6R2 21
+#define POS_LH_C6R3 22
+#define POS_LH_C5R3 23
+#define POS_LH_C4R3 24
+#define POS_LH_C3R3 25
+#define POS_LH_C2R3 26
+#define POS_LH_C1R3 27
+#define POS_RH_C1R3 28
+#define POS_RH_C2R3 29
+#define POS_RH_C3R3 30
+#define POS_RH_C4R3 31
+#define POS_RH_C5R3 32
+#define POS_RH_C6R3 33
+#define POS_LH_C6R4 34
+#define POS_LH_C5R4 35
+#define POS_LH_C4R4 36
+#define POS_LH_C3R4 37
+#define POS_LH_C2R4 38
+#define POS_LH_C1R4 39
+#define POS_RH_C1R4 40
+#define POS_RH_C2R4 41
+#define POS_RH_C3R4 42
+#define POS_RH_C4R4 43
+#define POS_RH_C5R4 44
+#define POS_RH_C6R4 45
+#define POS_LH_C6R5 46
+#define POS_LH_C5R5 47
+#define POS_LH_C4R5 48
+#define POS_LH_C3R5 49
+#define POS_LH_C2R5 50
+#define POS_LH_C1R5 51
 #define POS_LH_T1 52
 #define POS_LH_T2 53
 #define POS_LH_T3 54
+#define POS_RH_T3 55
+#define POS_RH_T2 56
+#define POS_RH_T1 57
+#define POS_RH_C1R5 58
+#define POS_RH_C2R5 59
+#define POS_RH_C3R5 60
+#define POS_RH_C4R5 61
+#define POS_RH_C5R5 62
+#define POS_RH_C6R5 63
+#define POS_LH_C6R6 64
+#define POS_LH_C5R6 65
+#define POS_LH_C4R6 66
+#define POS_LH_C3R6 67
+#define POS_LH_C2R6 68
 #define POS_LH_T4 69
 #define POS_LH_T5 70
 #define POS_LH_T6 71
-#define POS_LH_C1R2 15
-#define POS_LH_C1R3 27
-#define POS_LH_C1R4 39
-#define POS_LH_C1R5 51
-#define POS_LH_C2R1 4
-#define POS_LH_C2R2 14
-#define POS_LH_C2R3 26
-#define POS_LH_C2R4 38
-#define POS_LH_C2R5 50
-#define POS_LH_C2R6 68
-#define POS_LH_C3R1 3
-#define POS_LH_C3R2 13
-#define POS_LH_C3R3 25
-#define POS_LH_C3R4 37
-#define POS_LH_C3R5 49
-#define POS_LH_C3R6 67
-#define POS_LH_C4R1 2
-#define POS_LH_C4R2 12
-#define POS_LH_C4R3 24
-#define POS_LH_C4R4 36
-#define POS_LH_C4R5 48
-#define POS_LH_C4R6 66
-#define POS_LH_C5R1 1
-#define POS_LH_C5R2 11
-#define POS_LH_C5R3 23
-#define POS_LH_C5R4 35
-#define POS_LH_C5R5 47
-#define POS_LH_C5R6 65
-#define POS_LH_C6R1 0
-#define POS_LH_C6R2 10
-#define POS_LH_C6R3 22
-#define POS_LH_C6R4 34
-#define POS_LH_C6R5 46
-#define POS_LH_C6R6 64
-#define POS_RH_T1 57
-#define POS_RH_T2 56
-#define POS_RH_T3 55
-#define POS_RH_T4 74
-#define POS_RH_T5 73
 #define POS_RH_T6 72
-#define POS_RH_C1R2 16
-#define POS_RH_C1R3 28
-#define POS_RH_C1R4 40
-#define POS_RH_C1R5 58
-#define POS_RH_C2R1 5
-#define POS_RH_C2R2 17
-#define POS_RH_C2R3 29
-#define POS_RH_C2R4 41
-#define POS_RH_C2R5 59
+#define POS_RH_T5 73
+#define POS_RH_T4 74
 #define POS_RH_C2R6 75
-#define POS_RH_C3R1 6
-#define POS_RH_C3R2 18
-#define POS_RH_C3R3 30
-#define POS_RH_C3R4 42
-#define POS_RH_C3R5 60
 #define POS_RH_C3R6 76
-#define POS_RH_C4R1 7
-#define POS_RH_C4R2 19
-#define POS_RH_C4R3 31
-#define POS_RH_C4R4 43
-#define POS_RH_C4R5 61
 #define POS_RH_C4R6 77
-#define POS_RH_C5R1 8
-#define POS_RH_C5R2 20
-#define POS_RH_C5R3 32
-#define POS_RH_C5R4 44
-#define POS_RH_C5R5 62
 #define POS_RH_C5R6 78
-#define POS_RH_C6R1 9
-#define POS_RH_C6R2 21
-#define POS_RH_C6R3 33
-#define POS_RH_C6R4 45
-#define POS_RH_C6R5 63
 #define POS_RH_C6R6 79
+
 
 /* Custom Defined Behaviors */
 / {
@@ -443,6 +507,9 @@ behaviors {
 
 };
 
+/* Generated input processors */
+
+
 /* Automatically generated macro definitions */
 / {
     macros {
@@ -453,7 +520,8 @@ behaviors {
 /* Automatically generated behavior definitions */
 / {
     behaviors {
-    
+
+
     };
 };
 
@@ -479,12 +547,12 @@ behaviors {
 
         layer_Lower {
             bindings = <
-                &none      &none      &none       &none   &none                                                                                             &none         &none         &none            &none        &kp PSCRN
-                &none      &none      &none       &none   &none   &none                                                          &kp LEFT_PARENTHESIS  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
-               &trans      &none      &none       &none   &none   &none                                                         &kp RIGHT_PARENTHESIS      &kp N7        &kp N8        &kp N9     &kp KP_MINUS            &none
-               &trans  &kp LCTRL  &kp LSHFT    &kp LALT   &none   &none                                                                   &kp PERCENT      &kp N4        &kp N5        &kp N6      &kp KP_PLUS            &none
-               &trans      &none      &none  &caps_word   &none   &none     &trans   &trans   &trans  &trans  &trans    &trans              &kp COMMA      &kp N1        &kp N2        &kp N3     &kp KP_ENTER           &trans
- &magic LAYER_Magic 0      &none  &kp PG_DN   &kp PG_UP   &none          &kp SPACE  &kp RET  &kp DEL  &trans  &trans  &kp BSPC                             &kp N0     &kp COMMA       &kp DOT     &kp KP_ENTER            &none
+                &none      &none      &none       &none   &none                                                                                  &none         &none         &none            &none         &kp PSCRN
+                &none      &none      &none       &none   &none   &none                                                         &kp LS(N9)  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &to LAYER_Normal
+               &trans      &none      &none       &none   &none   &none                                                         &kp LS(N0)      &kp N7        &kp N8        &kp N9     &kp KP_MINUS             &none
+               &trans  &kp LCTRL  &kp LSHFT    &kp LALT   &none   &none                                                         &kp LS(N5)      &kp N4        &kp N5        &kp N6      &kp KP_PLUS             &none
+               &trans      &none      &none  &caps_word   &none   &none     &trans   &trans   &trans  &trans  &trans    &trans   &kp COMMA      &kp N1        &kp N2        &kp N3     &kp KP_ENTER            &trans
+ &magic LAYER_Magic 0      &none  &kp PG_DN   &kp PG_UP   &none          &kp SPACE  &kp RET  &kp DEL  &trans  &trans  &kp BSPC                  &kp N0     &kp COMMA       &kp DOT     &kp KP_ENTER             &none
             >;
         };
 
@@ -501,23 +569,23 @@ behaviors {
 
         layer_Symbol {
             bindings = <
- &trans                &trans                    &trans                 &trans      &trans                                                                                      &trans                  &trans                     &trans                   &trans     &trans
- &trans                &trans                    &trans                 &trans      &trans         &trans                                                        &trans         &trans                  &trans                     &trans                   &trans     &trans
- &trans                &caret                &kp LS(N4)             &kp RA(N7)  &kp RA(N0)      &kp RA(E)                                                    &kp LS(N3)     &kp LS(N6)     &kp LS(NON_US_HASH)            &kp NON_US_HASH            &kp LS(GRAVE)     &trans
- &trans  &bhm_left LCTRL NUBS  &bhm_left LSHFT LS(NUBS)  &bhm_left LALT LS(N8)  &kp LS(N9)     &kp LS(N7)                                                  &kp RA(RBKT)     &kp LS(N1)  &bhm_right LALT LS(N2)  &bhm_right RSHFT LS(RBKT)  &bhm_right RCTRL LS(N0)  &kp EQUAL
- &trans          &kp RA(NUBS)                &kp LS(N5)             &kp RA(N8)  &kp RA(N9)  &kp RA(MINUS)  &trans  &trans  &trans  &trans  &trans  &trans     &kp RA(M)  &kp LS(MINUS)                  &grave                   &kp RBKT                &kp RA(Q)     &trans
- &trans                &trans                    &trans                 &trans      &trans                 &trans  &trans  &trans  &trans  &trans  &trans                       &trans                  &trans                     &trans                   &trans     &trans
+ &trans                &trans                    &trans                 &trans      &trans                                                                                      &trans                  &trans                     &trans                   &trans            &trans
+ &trans                &trans                    &trans                 &trans      &trans         &trans                                                        &trans         &trans                  &trans                     &trans                   &trans  &to LAYER_Normal
+ &trans                &caret                &kp LS(N4)             &kp RA(N7)  &kp RA(N0)      &kp RA(E)                                                    &kp LS(N3)     &kp LS(N6)     &kp LS(NON_US_HASH)            &kp NON_US_HASH            &kp LS(GRAVE)            &trans
+ &trans  &bhm_left LCTRL NUBS  &bhm_left LSHFT LS(NUBS)  &bhm_left LALT LS(N8)  &kp LS(N9)     &kp LS(N7)                                                  &kp RA(RBKT)     &kp LS(N1)  &bhm_right LALT LS(N2)  &bhm_right RSHFT LS(RBKT)  &bhm_right RCTRL LS(N0)         &kp EQUAL
+ &trans          &kp RA(NUBS)                &kp LS(N5)             &kp RA(N8)  &kp RA(N9)  &kp RA(MINUS)  &trans  &trans  &trans  &trans  &trans  &trans     &kp RA(M)  &kp LS(MINUS)                  &grave                   &kp RBKT                &kp RA(Q)            &trans
+ &trans                &trans                    &trans                 &trans      &trans                 &trans  &trans  &trans  &trans  &trans  &trans                       &trans                  &trans                     &trans                   &trans            &trans
             >;
         };
 
         layer_Normal {
             bindings = <
-         &kp ESC    &kp F2   &kp F3    &kp F4     &kp F5                                                                              &kp F6     &kp F7     &kp F8         &kp F9           &kp F10
-       &kp EQUAL    &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                                                              &kp N6  &kp N7     &kp N8     &kp N9         &kp N0             &to 0
-           &kp P     &kp Q    &kp W     &kp E      &kp R   &kp T                                                               &kp Y   &kp U      &kp I      &kp O          &kp P  &kp LEFT_BRACKET
-           &kp L     &kp A    &kp S     &kp D      &kp F   &kp G                                                               &kp H   &kp J      &kp K      &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
- &kp NON_US_BSLH     &kp Z    &kp X     &kp C      &kp V   &kp B     &kp N7   &kp N8  &kp LALT  &kp RGUI  &kp RALT     &none   &kp N   &kp M  &kp COMMA    &kp DOT       &kp FSLH         &kp PG_UP
-           &kp H  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp N6   &kp F12   &kp RET  &kp BSPC          &kp UP   &kp DOWN  &kp MINUS          &none         &kp PG_DN
+    &kp F1    &kp F2    &kp F3  &kp F4     &kp F5                                                                               &kp F6     &kp F7     &kp F8         &kp F9           &kp F10
+ &kp EQUAL    &kp N1    &kp N2  &kp N3     &kp N4  &kp N5                                                               &kp N6  &kp N7     &kp N8     &kp N9         &kp N0             &to 0
+   &kp TAB     &kp Q     &kp W   &kp E      &kp R   &kp T                                                                &kp Y   &kp U      &kp I      &kp O          &kp P  &kp LEFT_BRACKET
+   &kp ESC     &kp A     &kp S   &kp D      &kp F   &kp G                                                                &kp H   &kp J      &kp K      &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
+ &kp LSHFT     &kp Z     &kp X   &kp C      &kp V   &kp B    &kp DEL  &kp BSPC  &kp LGUI  &kp RGUI  &kp RALT     &none   &kp N   &kp M  &kp COMMA    &kp DOT       &kp FSLH         &kp PG_UP
+     &kp M  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT          &kp SPACE   &kp RET   &kp F11   &kp F12  &kp LGUI  &kp BSPC          &kp UP   &kp DOWN  &kp MINUS          &none         &kp PG_DN
             >;
         };
 
